@@ -1,0 +1,17 @@
+:root {
+    --defaultColorLight: rgb(204, 203, 203);
+    --defaultColor: rgb(218, 114, 44);
+    --defaultColorDark: rgb(100, 100, 100);
+    --defaultTextColor: black;
+
+    --defaultColorBackground: rgb(204, 203, 203, 0.3);
+    
+    --defaultBorderRadius: 10px;
+
+    --H1FontHeight: 30px;
+    --defaultFontHeight: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
