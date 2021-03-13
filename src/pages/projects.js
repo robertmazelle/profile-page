@@ -8,7 +8,7 @@ const ICON_SIZE = "300px"
 
 const ProjectsPage = () => {
   return (
-    <body>
+    <div>
       <Topbar />
       <div className="projectsCategoriesContainer">
         <div className="projectCategory">        
@@ -18,7 +18,7 @@ const ProjectsPage = () => {
           <FaJava size={ICON_SIZE} />
         </div>
       </div>
-    </body>
+    </div>
   )
 }
 
