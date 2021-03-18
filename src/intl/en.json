@@ -3,6 +3,8 @@
     "IndexPage.goToAbout": "About me",
     "IndexPage.greeting": "Hello, my name is Robert!",
     "IndexPage.personalInformation": "In December 2019 I decided I want to become a Software Developer. This is my portfolio page.",
+    "IndexPage.title": "Robert Mazelle | Home",
+    "ProjectsPage.title": "Robert Mazelle | Projects",
     "Topbar.mainPage": "Main",
     "Topbar.projectsPage": "Projects"
 }
