@@ -3,6 +3,11 @@
     "IndexPage.goToAbout": "About me",
     "IndexPage.greeting": "Hello, my name is Robert!",
     "IndexPage.personalInformation": "In December 2019 I decided I want to become a Software Developer. This is my portfolio page.",
+    "IndexPage.title": "Robert Mazelle | Home",
+    "NotFoundPage.title": "Not found",
+    "NotFoundPage.description": "Sorry, the page you was looking for does not exist, yet",
+    "ProjectsPage.title": "Robert Mazelle | Projects",
+    "ProjectsPage.description": "These are all my projects that I ever worked on to learn and improve my skills. I started to learn Java, but I ended up creating websites as a JavaScript Frontend Developer.",
     "Topbar.mainPage": "Main",
     "Topbar.projectsPage": "Projects"
 }

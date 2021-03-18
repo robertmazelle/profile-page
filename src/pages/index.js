@@ -1,20 +1,22 @@
 import * as React from "react"
 import { FormattedMessage, injectIntl } from "gatsby-plugin-react-intl";
 import { Link } from 'gatsby';
-import { Helmet } from "react-helmet";
-import favicon from '../images/favicon.ico'
+import { Topbar, Button, Seo } from '../components';
 
 import '../styles/main.css';
-import { Topbar, Button } from '../components';
 
 // markup
 const IndexPage = ({ intl }) => {
+
+  const pageDescription = intl.formatMessage({ id: "IndexPage.personalInformation"});
+  const title = intl.formatMessage({ id: "IndexPage.title" });
+
   return (
     <div className="mainContainer">
-      <Helmet>
-        <title>{intl.formatMessage({ id: "IndexPage.title" })}</title>
-        <link rel="icon" href={favicon} />
-        </Helmet>
+      <Seo
+        title={title}
+        description={pageDescription}
+      />
       <Topbar />
       <div className="titleWrapper">
         <div className="titleContainer">
@@ -22,7 +24,7 @@ const IndexPage = ({ intl }) => {
             <FormattedMessage id="IndexPage.greeting" />
           </h1>
           <h2>
-            <FormattedMessage id="IndexPage.personalInformation" />
+            {pageDescription}
           </h2>
           <div className="buttonContainer">
             <Link to="/projects">
