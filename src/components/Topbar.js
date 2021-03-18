@@ -11,6 +11,12 @@ const TopbarDesktop = props => {
       <nav className="navigation">
         <Link
           to="/"
+          className="pageLogoNavigation"
+        >
+          <div className="logoMain"><div className="initials">RM</div><div className="name">robertmazelle.</div></div>
+        </Link>
+        <Link
+          to="/"
           activeClassName="navButtonSelected"
           className="navButton"
         >
@@ -24,7 +30,6 @@ const TopbarDesktop = props => {
           <FormattedMessage id="Topbar.projectsPage" />
         </Link>
       </nav>
-      <div className="navigation-border" />
     </div >
   );
 };

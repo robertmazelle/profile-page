@@ -1,7 +1,7 @@
 @import './default.css';
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 .root {
-    background-color: var(--defaultColorLight);
     width: 100%;
 }
 
@@ -14,7 +14,8 @@
 }
 
 .navButton,
-.navButtonSelected {
+.navButtonSelected,
+.pageLogoNavigation {
     font-size: 20px;
     padding: 20px;
     margin-bottom: 5px;
@@ -35,4 +36,28 @@
 .navText {
     color: var(--defaultTextColor);
     text-decoration: none;
+}
+
+.logoMain {
+    display: flex;
+    flex-direction: row;    
+    background-color: var(--strongerColorBackground);
+    padding: 10px;
+    border-radius: var(--defaultBorderRadius);
+}
+
+.pageLogoNavigation {
+    padding: 5px;
+    width: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.initials {
+    font-family: 'Satisfy', cursive;
+}
+
+.name {
+    margin-left: 20px;
 }

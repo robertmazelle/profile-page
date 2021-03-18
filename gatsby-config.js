@@ -22,5 +22,6 @@ module.exports = {
         ignoredPaths: [],
       },
     },
+    "gatsby-plugin-react-helmet"
   ]
 }
