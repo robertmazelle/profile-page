@@ -4,8 +4,8 @@
     --defaultColorDark: rgb(100, 100, 100);
     --defaultTextColor: black;
 
-    --defaultColorBackground: rgb(204, 203, 203, 0.3);
-    --strongerColorBackground: rgb(204, 203, 203, 0.5);
+    --defaultColorBackground: rgb(204, 203, 203, 0.5);
+    --strongerColorBackground: rgb(204, 203, 203, 0.7);
 
     
     --defaultBorderRadius: 10px;
@@ -16,4 +16,8 @@
 
 h1 {
     font-size: 30px;
+}
+
+main {
+    height: 100%;
 }
