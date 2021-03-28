@@ -8,7 +8,7 @@ import '../styles/main.css';
 // markup
 const IndexPage = ({ intl }) => {
 
-  const pageDescription = intl.formatMessage({ id: "IndexPage.personalInformation"});
+  const pageDescription = intl.formatMessage({ id: "IndexPage.personalInformation" });
   const title = intl.formatMessage({ id: "IndexPage.title" });
 
   return (
@@ -28,14 +28,14 @@ const IndexPage = ({ intl }) => {
           </h2>
           <div className="buttonContainer">
             <Link to="/projects">
-            <Button >
-              <FormattedMessage id="IndexPage.goToProjects" />
-            </Button>
+              <Button >
+                <FormattedMessage id="IndexPage.goToProjects" />
+              </Button>
             </Link>
             <Link to="/about">
-            <Button>
-              <FormattedMessage id="IndexPage.goToAbout" />
-            </Button>
+              <Button>
+                <FormattedMessage id="IndexPage.goToAbout" />
+              </Button>
             </Link>
           </div>
         </div>

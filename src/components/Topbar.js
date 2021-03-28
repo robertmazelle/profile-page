@@ -29,6 +29,13 @@ const TopbarDesktop = props => {
         >
           <FormattedMessage id="Topbar.projectsPage" />
         </Link>
+        <Link
+          to="/about"
+          activeClassName="navButtonSelected"
+          className="navButton"
+        >
+          <FormattedMessage id="Topbar.aboutPage" />
+        </Link>
       </nav>
     </div >
   );
