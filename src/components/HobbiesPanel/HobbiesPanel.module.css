@@ -1,0 +1,32 @@
+@import '../../styles/default.css';
+
+.panel{
+  height: 400px;
+  display: flex;
+}
+
+.image {
+   min-width: 300px;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.imageWrapper {
+  position: relative;
+  display:flex;
+  width: 250px;
+  transition: 0.2s ease-in;
+}
+
+.imageWrapper:hover {
+  width: 500px;
+  transition: 1s ease-in;
+}
+
+.hobbyItemInfo {
+  font-size: var(--defaultFontHeight);
+  min-width: 200px;
+  margin-top: 20px;
+}

@@ -1,47 +1,60 @@
-@import './default.css';
+@import '../../styles/default.css';
 
-.workPoint {
+.educationPoint {
     width: 24px;
     height: 24px;
     background-color: var(--defaultColorLight);
     border-radius: 50%;
 }
 
-.workItem {
+.educationItem {
     font-size: var(--defaultFontHeight);
     display: flex;
     flex-direction: row;
 }
 
-.workBorder {
+.educationBorder {
     margin-left: 11px;
     width: 2px;
     background-color: var(--defaultColorLight);
-    height: 90%;
+    height: 80%;
 }
 
-.workContent {
+.educationContent {
     margin-left: 10px;
     display:flex;
     flex-direction: column;
     margin-bottom: 22px;
 }
 
-.workImageContainer {
+.educationImageContainer {
     max-width: 20%;
     margin: 0 0 auto auto;
 }
 
-.workImage:hover {
+.educationImage:hover {
     transform: scale(1.02);
     cursor: pointer;
 }
 
-.workImage {
+.educationImage {
     border-radius: var(--defaultBorderRadius);
     max-width: 100%;
 }
 
-.workTimeline {
+.educationTimeline {
     text-align: right;
+}
+
+.educationTimeline {
+    margin-top: 0;
+}
+
+.showMoreLink {
+    text-decoration: underline;
+}
+
+.showMoreLink:hover {
+    cursor: pointer;
+    color: var(--defaultColor);
 }
