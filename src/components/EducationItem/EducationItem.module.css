@@ -1,0 +1,60 @@
+@import '../../styles/default.css';
+
+.educationPoint {
+    width: 24px;
+    height: 24px;
+    background-color: var(--defaultColorLight);
+    border-radius: 50%;
+}
+
+.educationItem {
+    font-size: var(--defaultFontHeight);
+    display: flex;
+    flex-direction: row;
+}
+
+.educationBorder {
+    margin-left: 11px;
+    width: 2px;
+    background-color: var(--defaultColorLight);
+    height: 80%;
+}
+
+.educationContent {
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.educationImageContainer {
+    max-width: 20%;
+    margin: 0 0 auto auto;
+}
+
+.educationImage:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.educationImage {
+    border-radius: var(--defaultBorderRadius);
+    max-width: 100%;
+}
+
+.educationTimeline {
+    text-align: right;
+}
+
+.educationTimeline {
+    margin-top: 0;
+}
+
+.showMoreLink {
+    text-decoration: underline;
+}
+
+.showMoreLink:hover {
+    cursor: pointer;
+    color: var(--defaultColor);
+}

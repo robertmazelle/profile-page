@@ -1,0 +1,56 @@
+@import '../../styles/default.css';
+
+.workPoint {
+    width: 24px;
+    height: 24px;
+    background-color: var(--defaultColorLight);
+    border-radius: 50%;
+}
+
+.workItem {
+    font-size: var(--defaultFontHeight);
+    display: flex;
+    flex-direction: row;
+}
+
+.workBorder {
+    margin-left: 11px;
+    width: 2px;
+    background-color: var(--defaultColorLight);
+    height: 80%;
+}
+
+.workContent {
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.workImageContainer {
+    max-width: 20%;
+    margin: 0 0 auto auto;
+}
+
+.workImage:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.workImage {
+    border-radius: var(--defaultBorderRadius);
+    max-width: 100%;
+}
+
+.workTimeline {
+    text-align: right;
+}
+
+.showMoreLink {
+    text-decoration: underline;
+}
+
+.showMoreLink:hover {
+    cursor: pointer;
+    color: var(--defaultColor);
+}
