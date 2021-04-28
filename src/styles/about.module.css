@@ -10,7 +10,7 @@
 
 .aboutNav,
 .aboutItem {
-    background-color: var(--defaultColorBackground);
+    background-color: var(--strongerColorBackground);
     border-radius: var(--defaultBorderRadius);
 }
 
@@ -70,4 +70,10 @@
 
 .showMoreLink {
     text-decoration: underline;
+}
+
+.workItemsWrapper,
+.educationItemsWrapper,
+.hobbiesItemsWrapper {
+    width: 100%;
 }
