@@ -5,7 +5,8 @@
     --defaultTextColor: black;
 
     --defaultColorBackground: rgb(204, 203, 203, 0.5);
-    --strongerColorBackground: rgb(204, 203, 203, 0.7);
+    --strongerColorBackground: rgb(204, 203, 203, 0.6);
+    --strongstColorBackground: rgb(204, 203, 203, 0.7);
 
     
     --defaultBorderRadius: 10px;
