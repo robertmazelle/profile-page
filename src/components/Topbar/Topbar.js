@@ -2,9 +2,9 @@ import React from 'react';
 import { FormattedMessage, injectIntl } from "gatsby-plugin-react-intl";
 import { Link } from 'gatsby';
 
-import '../styles/topbar.css';
+import './Topbar.css';
 
-const TopbarDesktop = props => {
+const TopbarDesktop = () => {
 
   return (
     <div className="root">
