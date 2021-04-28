@@ -28,7 +28,7 @@ function ImageChanger(props) {
   return (
     <div className={classNames(css.root, className)}>
       <div className={css.content}>
-        <div aria-hidden="true" onMouseOutCapture={() => setChangeImage(true)} onMouseLeave={() => setChangeImage(false)}>
+        <div aria-hidden="true" onMouseOver={() => setChangeImage(true)} onMouseLeave={() => setChangeImage(false)}>
           {images.map((image, index) => (
             <img
               id={index}
