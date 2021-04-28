@@ -1,11 +1,11 @@
-@import './default.css';
+@import '../../styles/default.css';
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 .root {
     width: 100%;
     position:fixed;
     top: 0;
-    z-index: 2;
+    z-index: 10;
     background-color: var(--defaultColorLight);
 }
 
@@ -45,7 +45,7 @@
 .logoMain {
     display: flex;
     flex-direction: row;    
-    background-color: var(--strongerColorBackground);
+    background-color: var(--strongstColorBackground);
     padding: 10px;
     border-radius: var(--defaultBorderRadius);
 }
